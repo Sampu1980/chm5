@@ -1,0 +1,7 @@
+Version: 0.7.15
+Maintainer: Infinera Inc.,
+Architecture: all
+Description: CHM6 DataPlane Microservice
+Package: chm6dataplanems
+Priority: required
+Section: base

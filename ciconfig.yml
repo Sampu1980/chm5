@@ -1,0 +1,61 @@
+version: 2.0.0
+
+autotags:                
+  - branch: dev.*               
+  - branch: master
+  - branch: release/.*           
+  - branch: support/.*
+  - branch: feature/.*
+
+recipe:
+  docker:
+    artifacts:
+      compression: zip
+      archive: tar
+      image: true
+      targets:
+        - target: aarch64
+          build: chm6_dataplane_ms_arm64
+        
+        - target: x86_64
+          build: chm6_dataplane_ms_x86
+
+        - target: aarch64
+          build: chm6_dataplane_ms_arm64_signed
+          tags:
+            - signed        
+
+        - target: x86_64
+          build: chm6_dataplane_ms_x86_signed
+          tags:
+            - signed
+
+        - target: aarch64
+          build: chm6_dp_ms_build_aarch64
+          tags:
+            - dev        
+
+        - target: x86_64
+          build: chm6_dp_ms_build_x86
+          tags:
+            - dev
+
+#    tests:
+#      unit:
+#        result:
+#          format: xml
+#          framework: googletest
+#        targets:
+#          - target: x86_64
+#            build: chm6_dataplane_ms_unit_test
+#
+
+    static_analysis:
+      format: json
+      framework: coverity
+      targets:
+        - target: x86_64
+          build: static_analysis
+          results:
+            - file: /home/infinera/artifacts/x86_64-linux-gnu/static_analysis/chm6_dataplane_ms.json
+

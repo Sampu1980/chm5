@@ -1,0 +1,6 @@
+
+#!/bin/sh
+
+docker load -i opt/infinera/chm6/services/chm6_dataplane_ms.tar.gz
+
+exit 0

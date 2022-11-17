@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-declarations")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wno-unused-parameter -fPIC -pedantic -Werror ")
+project(dataplane_ms)
+
+option(CI "For Continue Integration Build" ON)
+if(CI)
+    # add_subdirectory(test/unit ${CMAKE_CURRENT_BINARY_DIR}/test/unit)
+else()
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated-declarations")
+    add_subdirectory(src/ms_main ${CMAKE_CURRENT_BINARY_DIR}/src/ms_main)
+endif()

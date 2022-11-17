@@ -1,0 +1,632 @@
+HEADER,FRU Name,FRU Version,LossDate,LossVersion,NumSegments
+HDRDATA,CHM6,P3B1,07/08/2022,R6.0_V1.2,126
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,ATL_HOST_BRCM,BCM_HOST_BRCM,GAUI8,2,1,6
+RECHEADER,MaxLoss,AutPeaking_EN,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,1,0,-16,128,0,0,0
+DATA,14000,1,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_HOST_BRCM,ATL_HOST_BRCM,GAUI8,2,0,6
+RECHEADER,MaxLoss,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,0,-16,128,0,0,0
+DATA,14000,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,BCM_HOST_BRCM,GAUI8,2,1,6
+RECHEADER,MaxLoss,AutPeaking_EN,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,1,0,-16,128,0,0,0
+DATA,14000,1,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_HOST_BRCM,BCM_PORT_BRCM,GAUI8,2,0,6
+RECHEADER,MaxLoss,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,0,-16,128,0,0,0
+DATA,14000,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDD4ZZZZ-00_Innolight,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDD4ZZZZ-00_Innolight,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDD4ZZZZ-00_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDD4ZZZZ-00_Innolight,BCM_PORT_BRCM,CAUI4,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDD4ZZZZ-00_CIG,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDD4ZZZZ-00_CIG,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDD4ZZZZ-00_CIG,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDD4ZZZZ-00_CIG,BCM_PORT_BRCM,CAUI4,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDF4ZZZZ-00_Innolight,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-16,128,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDF4ZZZZ-00_Innolight,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDF4ZZZZ-00_CIG,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDF4ZZZZ-00_CIG,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDL4ZZZZ-00_CIG,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDL4ZZZZ-00_CIG,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDL4ZZZZ-00_Innolight,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDL4ZZZZ-00_Innolight,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDS8ZZZZ-00_Innolight,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDS8ZZZZ-00_Innolight,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDS8ZZZZ-00_Finisar,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDS8ZZZZ-00_Finisar,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_QSFPDD-Generic_Generic,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_QSFPDD-Generic_Generic,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_QSFPDD-Generic_Generic,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_QSFPDD-Generic_Generic,BCM_PORT_BRCM,CAUI4,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-LR4_Sumitomo,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-LR4_Sumitomo,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-LR4_Lumentum,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-LR4_Lumentum,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-LR4_Finisar,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-LR4_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM2-100G-Q-LR4_Finisar,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM2-100G-Q-LR4_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-LR4_Accelink,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,2,0,-6,71,0,0,0
+DATA,9000,2,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-LR4_Accelink,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM2-100G-Q-LR4_Accelink,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,2,0,-6,71,0,0,0
+DATA,9000,2,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM2-100G-Q-LR4_Accelink,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-CWDM4_AOI,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,5,0,-6,71,0,0,0
+DATA,9000,5,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-CWDM4_AOI,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-CWDM4_Lumentum,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-CWDM4_Lumentum,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-CWDM4_Kaiam,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-CWDM4_Kaiam,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-SR4_Finisar,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-SR4_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-SR4_Innolight,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-SR4_Innolight,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_QSFP28-Generic_Generic,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_QSFP28-Generic_Generic,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_QSFP28-Generic_Generic,OTU4_4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_QSFP28-Generic_Generic,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,ATL_HOST_BRCM,BCM_HOST_BRCM,OTU4_2,2,1,6
+RECHEADER,MaxLoss,AutPeaking_EN,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,1,0,-16,128,0,0,0
+DATA,14000,1,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_HOST_BRCM,ATL_HOST_BRCM,OTU4_2,2,0,6
+RECHEADER,MaxLoss,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,0,-16,128,0,0,0
+DATA,14000,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,BCM_HOST_BRCM,OTU4_2,2,1,6
+RECHEADER,MaxLoss,AutPeaking_EN,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,1,0,-16,128,0,0,0
+DATA,14000,1,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_HOST_BRCM,BCM_PORT_BRCM,OTU4_2,2,0,6
+RECHEADER,MaxLoss,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,9000,0,-16,128,0,0,0
+DATA,14000,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDACCZZZ-03_Molex,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,0,-20,120,-20,0,0
+DATA,9000,0,0,0,-20,120,-20,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDACCZZZ-03_Molex,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,0,0,0
+DATA,9000,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDS4ZZZZ-00_Hisense,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,0,0,-16,128,0,0,0
+DATA,9000,1,0,0,-16,128,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDS4ZZZZ-00_Hisense,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,0,0,2
+DATA,9000,0,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDAOCZZZ-05_LinkTel,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,0,0,-16,128,0,0,0
+DATA,9000,1,0,0,-16,128,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDAOCZZZ-05_LinkTel,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,5,0,2
+DATA,9000,5,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDAOCZZZ-05_Innolight,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-16,128,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDAOCZZZ-05_Innolight,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100GMR-Q-LR4_Finisar,CAUI4,2,1,6
+RECHEADER,MaxLoss,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,-6,71,0,0,0
+DATA,9000,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100GMR-Q-LR4_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100GMR-Q-LR4_Finisar,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,0,0,-6,71,0,0,0
+DATA,9000,1,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100GMR-Q-LR4_Finisar,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100GMR-Q-SR4_Finisar,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,0,-6,71,0,0,0
+DATA,9000,0,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100GMR-Q-SR4_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100GMR-Q-SR4_Finisar,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,0,-6,71,0,0,0
+DATA,9000,0,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100GMR-Q-SR4_Finisar,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100GMR-Q-ER4L_Sumitomo,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,0,-6,71,0,0,0
+DATA,9000,0,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100GMR-Q-ER4L_Sumitomo,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100GMR-Q-ER4L_Sumitomo,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,0,-6,71,0,0,0
+DATA,9000,0,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100GMR-Q-ER4L_Sumitomo,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-DR1_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-6,71,0,0,0
+DATA,9000,1,3,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-DR1_Innolight,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-DR1_CIG,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,1,0,-6,71,0,0,0
+DATA,9000,1,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-DR1_CIG,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,1
+DATA,9000,0,1
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-FR1_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-6,71,0,0,0
+DATA,9000,1,3,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-FR1_Innolight,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-FR1_CIG,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,1,0,-6,71,0,0,0
+DATA,9000,1,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-FR1_CIG,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,1
+DATA,9000,0,1
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_XP2-C-CBLA-Q-078_TE-Connectivity,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,0,0,-6,71,0,0,0
+DATA,9000,0,0,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_XP2-C-CBLA-Q-078_TE-Connectivity,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,0
+DATA,9000,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8AOCZDR-01_Finisar,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,2,0,-6,71,0,0,0
+DATA,9000,0,2,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8AOCZDR-01_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,3,2
+DATA,9000,3,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8AOCZDR-01_Finisar,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,2,0,-6,71,0,0,0
+DATA,9000,0,2,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8AOCZDR-01_Finisar,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,3,2
+DATA,9000,3,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8AOCZZZ-03_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8AOCZZZ-03_Innolight,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD-ZR_QSFPDD-ZR-Generic_Generic,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD-ZR_QSFPDD-ZR-Generic_Generic,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD-ZR_QSFPDD-ZR-Generic_Generic,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,4,0,-16,128,0,0,0
+DATA,9000,1,4,0,-20,148,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD-ZR_QSFPDD-ZR-Generic_Generic,BCM_PORT_BRCM,CAUI4,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8AOCZZZ-10_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8AOCZZZ-10_Innolight,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8AOCZDR-05_Finisar,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,2,0,-6,71,0,0,0
+DATA,9000,0,2,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8AOCZDR-05_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,3,2
+DATA,9000,3,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8AOCZDR-05_Finisar,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,2,0,-6,71,0,0,0
+DATA,9000,0,2,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8AOCZDR-05_Finisar,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,3,2
+DATA,9000,3,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDXD4ZZZ-00_Innolight,GAUI8,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-16,128,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDXD4ZZZ-00_Innolight,BCM_PORT_BRCM,GAUI8,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFPDD_ZXS-QDXD4ZZZ-00_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-16,128,0,0,0
+DATA,9000,1,3,0,-16,128,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFPDD_ZXS-QDXD4ZZZ-00_Innolight,BCM_PORT_BRCM,CAUI4,2,0,3
+RECHEADER,MaxLoss,RxPreCursor,RxPostCursor,RxAmplitude
+DATA,2500,2,0,2
+DATA,9000,2,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8S4ZZMR-00_Finisar,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8S4ZZMR-00_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,1,2
+DATA,9000,1,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8S4ZZMR-00_Finisar,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8S4ZZMR-00_Finisar,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,1,2
+DATA,9000,1,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-ER4L_Oplink,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,3,0,-6,71,0,0,0
+DATA,9000,0,3,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-ER4L_Oplink,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-LR1_Innolight,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,3,0,-6,71,0,0,0
+DATA,9000,1,3,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-LR1_Innolight,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_TOM-100G-Q-LR1_CIG,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,1,1,0,-6,71,0,0,0
+DATA,9000,1,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_TOM-100G-Q-LR1_CIG,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,1
+DATA,9000,0,1
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8L4ZZDR-00_Finisar,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8L4ZZDR-00_Finisar,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8L4ZZDR-00_Finisar,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8L4ZZDR-00_Finisar,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,2
+DATA,9000,0,2
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8L4ZZDR-00_CIG,CAUI4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8L4ZZDR-00_CIG,BCM_PORT_BRCM,CAUI4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,1
+DATA,9000,0,1
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,BCM_PORT_BRCM,QSFP28_ZXS-Q8L4ZZDR-00_CIG,OTU4_4,2,2,6
+RECHEADER,MaxLoss,TxEQAdaptive,TxEQ,TxPre2,TxPre1,TxMain,TxPost1,TxPost2,TxPost3
+DATA,2500,0,1,0,-6,71,0,0,0
+DATA,9000,0,1,0,-6,71,0,0,0
+SEGHEADER,Source,Destination,Rate,No of Records,Rx Param Count,Tx Param Count
+SEGDATA,QSFP28_ZXS-Q8L4ZZDR-00_CIG,BCM_PORT_BRCM,OTU4_4,2,0,2
+RECHEADER,MaxLoss,RxEQ,RxAmplitude
+DATA,2500,0,1
+DATA,9000,0,1

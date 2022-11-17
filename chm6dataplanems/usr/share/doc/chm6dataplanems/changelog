@@ -1,0 +1,202 @@
+chm6dataplanems (0.7.15) UNRELEASED; urgency=medium
+
+  * Initial Release
+  
+  -- Bang Build <bangbuild@sv-debbld-22.infinera.com>  Sat, 06 Jun 2020 16:29:50 -0700  * Merge pull request #37 in CHM6/chm6_dataplane_ms from ecina-GX-2752
+    to master  * commit fa4055f53df3b535258762d9520c33d8f530d74e:
+    ecina-GX-2752 updating version number
+  * Merge pull request #37 in CHM6/chm6_dataplane_ms from ecina-GX-2752
+    to master  * commit fa4055f53df3b535258762d9520c33d8f530d74e:
+    ecina-GX-2752 updating version number
+  * Merge pull request #38 in CHM6/chm6_dataplane_ms from ecina-GX-2752
+    to master  * commit 666a3fa69509b56d1fb9f2dfb87872ae292156c8:
+    ecina-GX-2752 updating dockerfile stage names to comply with
+    pipeline
+  * Merge pull request #38 in CHM6/chm6_dataplane_ms from ecina-GX-2752
+    to master  * commit 666a3fa69509b56d1fb9f2dfb87872ae292156c8:
+    ecina-GX-2752 updating dockerfile stage names to comply with
+    pipeline
+  * Merge pull request #42 in CHM6/chm6_dataplane_ms from ecina-GX-2752
+    to master  * commit 74ce9eeebef33d648e34b158bdf4bf5cf3cf355b:
+    ecina-GX-2752 version.txt patch num change to generate artifactory
+    image
+  * Merge pull request #42 in CHM6/chm6_dataplane_ms from ecina-GX-2752
+    to master  * commit 74ce9eeebef33d648e34b158bdf4bf5cf3cf355b:
+    ecina-GX-2752 version.txt patch num change to generate artifactory
+    image
+  * Merge pull request #48 in CHM6/chm6_dataplane_ms from ecina-GX-4167
+    to master  * commit aa2278345b1f7afe391fe86ab05d1f1f22947f50:
+    ecina-GX-4167 BoardInfo Env Variable Readme   ecina-GX-4167
+    BoardInfo Env Variable
+  * Merge pull request #48 in CHM6/chm6_dataplane_ms from ecina-GX-4167
+    to master  * commit aa2278345b1f7afe391fe86ab05d1f1f22947f50:
+    ecina-GX-4167 BoardInfo Env Variable Readme   ecina-GX-4167
+    BoardInfo Env Variable
+  * Merge pull request #58 in CHM6/chm6_dataplane_ms from ecina-GX-4167
+    to master  * commit 2286764c8e9fdbcefa84b916a4a1779f039a87ce:
+    ecina-GX-4167 Env name change for Dco Ip addresses name
+  * Merge pull request #58 in CHM6/chm6_dataplane_ms from ecina-GX-4167
+    to master  * commit 2286764c8e9fdbcefa84b916a4a1779f039a87ce:
+    ecina-GX-4167 Env name change for Dco Ip addresses name
+  * Merge pull request #65 in CHM6/chm6_dataplane_ms from bnguyen-GX-
+    3446 to master  * commit 63ab06b7b8503d62d1b01c9aa0281264ebebac2b:
+    GX-3446 Add Carrier State support, Add OTU RX TTI support
+  * Merge pull request #65 in CHM6/chm6_dataplane_ms from bnguyen-GX-
+    3446 to master  * commit 63ab06b7b8503d62d1b01c9aa0281264ebebac2b:
+    GX-3446 Add Carrier State support, Add OTU RX TTI support
+  * Merge pull request #66 in CHM6/chm6_dataplane_ms from lchiou-GX-4318
+    to master  * commit 52c2e0fa8f5d4724467560f866750a9a783bc853:   GX-
+    4318 Integrate with Agent on Carrier
+  * Merge pull request #66 in CHM6/chm6_dataplane_ms from lchiou-GX-4318
+    to master  * commit 52c2e0fa8f5d4724467560f866750a9a783bc853:   GX-
+    4318 Integrate with Agent on Carrier
+  * Merge pull request #69 in CHM6/chm6_dataplane_ms from ecina-GX-4401
+    to master  * commit f63f94ac1438bacc2aa4454eb0d188cb56212d14:
+    ecina-GX-4401 ReadMe update   ecina-GX-4401 Adding comment to
+    trigger pipeline build   ecina-GX-4401 Adding comment to trigger
+    pipeline build   ecina-GX-4401 wait for board init state completion
+  * Merge pull request #69 in CHM6/chm6_dataplane_ms from ecina-GX-4401
+    to master  * commit f63f94ac1438bacc2aa4454eb0d188cb56212d14:
+    ecina-GX-4401 ReadMe update   ecina-GX-4401 Adding comment to
+    trigger pipeline build   ecina-GX-4401 Adding comment to trigger
+    pipeline build   ecina-GX-4401 wait for board init state completion
+  * Merge pull request #70 in CHM6/chm6_dataplane_ms from bnguyen-GX-
+    3446 to master  * commit 42eca8245edff690c30c4d41c782e03956339a27:
+    GX-3446 add ClientMode, fwUpgradeStatus, fwUpgradeState card state,
+    add target power, frequency, offset to carrier state, fixed cli info
+    command output
+  * Merge pull request #70 in CHM6/chm6_dataplane_ms from bnguyen-GX-
+    3446 to master  * commit 42eca8245edff690c30c4d41c782e03956339a27:
+    GX-3446 add ClientMode, fwUpgradeStatus, fwUpgradeState card state,
+    add target power, frequency, offset to carrier state, fixed cli info
+    command output
+  * Merge pull request #73 in CHM6/chm6_dataplane_ms from ecina-GX-4401
+    to master  * commit 53efe6602b7a6fc2701e9fb3d9cc2d1a50c8775c:
+    ecina-GX-4401 readme update   ecina-GX-4401 adding cli command to
+    complete init in case of testing without board init ms
+  * Merge pull request #73 in CHM6/chm6_dataplane_ms from ecina-GX-4401
+    to master  * commit 53efe6602b7a6fc2701e9fb3d9cc2d1a50c8775c:
+    ecina-GX-4401 readme update   ecina-GX-4401 adding cli command to
+    complete init in case of testing without board init ms
+  * Merge pull request #77 in CHM6/chm6_dataplane_ms from lchiou-GX-5011
+    to master  * commit 71d0cdff33f4bf48912c8cd9c667f5aa9b32cf87:   GX-
+    5011 Integration with Agent on Modify and Delete operations
+  * Merge pull request #77 in CHM6/chm6_dataplane_ms from lchiou-GX-5011
+    to master  * commit 71d0cdff33f4bf48912c8cd9c667f5aa9b32cf87:   GX-
+    5011 Integration with Agent on Modify and Delete operations
+  * Merge pull request #78 in CHM6/chm6_dataplane_ms from ecina-GX-4401
+    to master  * commit 2e759b64118ff129503907da26a9206ed2b00a45:
+    ecina-GX-4401 version.txt and readme update   ecina-GX-4401
+    DataPlaneMgr init completion automatically for sim. onResync
+    handling for board inint state
+  * Merge pull request #78 in CHM6/chm6_dataplane_ms from ecina-GX-4401
+    to master  * commit 2e759b64118ff129503907da26a9206ed2b00a45:
+    ecina-GX-4401 version.txt and readme update   ecina-GX-4401
+    DataPlaneMgr init completion automatically for sim. onResync
+    handling for board inint state
+  * Merge pull request #81 in CHM6/chm6_dataplane_ms from GX-4061-lhong
+    to master  * commit 787a148be1f52a7bca4e0d748f479ee7e5e374ea:   GX-
+    4061 bump version to 0.7.5 for latest dco-0.29   GX-4061 switch to
+    latest dco-0.29
+  * Merge pull request #81 in CHM6/chm6_dataplane_ms from GX-4061-lhong
+    to master  * commit 787a148be1f52a7bca4e0d748f479ee7e5e374ea:   GX-
+    4061 bump version to 0.7.5 for latest dco-0.29   GX-4061 switch to
+    latest dco-0.29
+  * Merge pull request #84 in CHM6/chm6_dataplane_ms from ecina-GX-3440
+    to master  * commit 040f7ab1864c18510dcc8f2951b6899b5205975d:
+    ecina-GX-3440 Merge and update version.txt   ecina-GX-3440 Logging
+    V1.0.2 update and telnet cli port to 5004
+  * Merge pull request #84 in CHM6/chm6_dataplane_ms from ecina-GX-3440
+    to master  * commit 040f7ab1864c18510dcc8f2951b6899b5205975d:
+    ecina-GX-3440 Merge and update version.txt   ecina-GX-3440 Logging
+    V1.0.2 update and telnet cli port to 5004
+  * Merge pull request #85 in CHM6/chm6_dataplane_ms from lchiou-GX-4647
+    to master  * commit 1d0302b5dd3eee608bce33e8335cb9392f9f1559:   GX-
+    4647 Error Condition Handling (Take 4)   GX-4647 Error Condition
+    Handling (Take 3)   GX-4647 Error Condition Handling (Take 2)   GX-
+    4647 Error condition handling
+  * Merge pull request #85 in CHM6/chm6_dataplane_ms from lchiou-GX-4647
+    to master  * commit 1d0302b5dd3eee608bce33e8335cb9392f9f1559:   GX-
+    4647 Error Condition Handling (Take 4)   GX-4647 Error Condition
+    Handling (Take 3)   GX-4647 Error Condition Handling (Take 2)   GX-
+    4647 Error condition handling
+  * Merge pull request #92 in CHM6/chm6_dataplane_ms from GX-4061-lhong
+    to master  * commit 31f650409653096e91deb20e2bd67d96cc18d7fc:   GX-
+    4061 bump version to 0.7.8   GX-4061 1. fix indentation 2. change
+    debug log for dpms pm   GX-4061 add unregister logic for dpms pm
+    callback   GX-4061 add pm callback support for dp
+  * Merge pull request #92 in CHM6/chm6_dataplane_ms from GX-4061-lhong
+    to master  * commit 31f650409653096e91deb20e2bd67d96cc18d7fc:   GX-
+    4061 bump version to 0.7.8   GX-4061 1. fix indentation 2. change
+    debug log for dpms pm   GX-4061 add unregister logic for dpms pm
+    callback   GX-4061 add pm callback support for dp
+  * Merge pull request #98 in CHM6/chm6_dataplane_ms from lchiou-GX-5129
+    to master  * commit 1709aa70795bdf7e219e9230782832dac542eb92:   GX-
+    5129  Use correct PM Registration name   GX-5129 Bump version.txt
+    GX-1529 Fix Scg PM name to use pm name instead of key   GX-5129
+    Update DataPlaneMgr Carrier PM calback to sync with Adapter changes
+    GX-5129  DataPlaneMgr Carrier PM   GX-5011  Support both Rx and Tx
+    OTU faults in SIM
+  * Merge pull request #98 in CHM6/chm6_dataplane_ms from lchiou-GX-5129
+    to master  * commit 1709aa70795bdf7e219e9230782832dac542eb92:   GX-
+    5129  Use correct PM Registration name   GX-5129 Bump version.txt
+    GX-1529 Fix Scg PM name to use pm name instead of key   GX-5129
+    Update DataPlaneMgr Carrier PM calback to sync with Adapter changes
+    GX-5129  DataPlaneMgr Carrier PM   GX-5011  Support both Rx and Tx
+    OTU faults in SIM
+  * Merge pull request #100 in CHM6/chm6_dataplane_ms from aforward-GX-
+    4172 to master  * commit 7e523bb158e8cfb659c1dcec5ce8e26c78b93d1c:
+    GX-4172 Fix version number to correct value.   GX-4172 Update
+    version.   GX-4172 Fix variable name.   GX-4172 Fix for
+    setPortLoopback
+  * Merge pull request #100 in CHM6/chm6_dataplane_ms from aforward-GX-
+    4172 to master  * commit 7e523bb158e8cfb659c1dcec5ce8e26c78b93d1c:
+    GX-4172 Fix version number to correct value.   GX-4172 Update
+    version.   GX-4172 Fix variable name.   GX-4172 Fix for
+    setPortLoopback
+  * Merge pull request #102 in CHM6/chm6_dataplane_ms from lchiou-GX-
+    5129 to master  * commit efabe88d94909206eab72bf62350a26cd8503ee1:
+    GX-5129 Bump version.txt   GX-5011  Delete Config on Redis   GX-4172
+    Gige CLI debug commands for datapath verification   GX-5174
+    GigeClient PM SIM   GX-5129  Carrier PM SIM
+  * Merge pull request #102 in CHM6/chm6_dataplane_ms from lchiou-GX-
+    5129 to master  * commit efabe88d94909206eab72bf62350a26cd8503ee1:
+    GX-5129 Bump version.txt   GX-5011  Delete Config on Redis   GX-4172
+    Gige CLI debug commands for datapath verification   GX-5174
+    GigeClient PM SIM   GX-5129  Carrier PM SIM
+  * Merge pull request #104 in CHM6/chm6_dataplane_ms from bkwok-GX-5549
+    to master  * commit 34373d1996a467e424ebf2cbc6a1473a1c4f3a08:   GX-
+    5549: D7.1:Major:SystemService: CHM6 disk space enhancement: Strip
+    MS binaries
+  * Merge pull request #104 in CHM6/chm6_dataplane_ms from bkwok-GX-5549
+    to master  * commit 34373d1996a467e424ebf2cbc6a1473a1c4f3a08:   GX-
+    5549: D7.1:Major:SystemService: CHM6 disk space enhancement: Strip
+    MS binaries
+  * Merge pull request #103 in CHM6/chm6_dataplane_ms from ecina-GX-5187
+    to master  * commit 48eacf5f959b0fe269b7cdee23750846509c3525:
+    ecina-GX-5187 Fixing build issue CardStateCollector   ecina-GX-5187
+    Readme.md update for versions   ecina-GX-5187 Few more cleanups
+    ecina-GX-5187 Fix build issue   ecina-GX-5187 Tested and debugged
+    ecina-GX-5187 Implment card. Compiles. First pass unit testing.
+  * Merge pull request #103 in CHM6/chm6_dataplane_ms from ecina-GX-5187
+    to master  * commit 48eacf5f959b0fe269b7cdee23750846509c3525:
+    ecina-GX-5187 Fixing build issue CardStateCollector   ecina-GX-5187
+    Readme.md update for versions   ecina-GX-5187 Few more cleanups
+    ecina-GX-5187 Fix build issue   ecina-GX-5187 Tested and debugged
+    ecina-GX-5187 Implment card. Compiles. First pass unit testing.
+  * Merge pull request #105 in CHM6/chm6_dataplane_ms from ecina-GX-5602
+    to master  * commit 3dc757b5e6491c88ad85afb3e85da94a7693e684:
+    ecina-GX-5602
+  * Merge pull request #105 in CHM6/chm6_dataplane_ms from ecina-GX-5602
+    to master  * commit 3dc757b5e6491c88ad85afb3e85da94a7693e684:
+    ecina-GX-5602
+  * Merge pull request #106 in CHM6/chm6_dataplane_ms from ecina-GX-5602
+    to master  * commit 24fab01faa383797178b89077ebdbd2de0f11d5f:
+    ecina-GX-5602 readme update   ecina-GX-5602 only update dco card
+    state if version has changed
+  * Merge pull request #106 in CHM6/chm6_dataplane_ms from ecina-GX-5602
+    to master  * commit 24fab01faa383797178b89077ebdbd2de0f11d5f:
+    ecina-GX-5602 readme update   ecina-GX-5602 only update dco card
+    state if version has changed
+
+ -- Bang Build <bangbuild@sv-debbld-22.infinera.com>  Wed, 05 Aug 2020 17:10:37 -0700
